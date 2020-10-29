@@ -7,19 +7,19 @@ public class Main {
     public static void main(String[] args) {
         Scanner number = new Scanner(System.in);
         //Առաջադրանք 1: իրականացնել XOR օպերատորը. Մուտքին տալ երկու թիվ ու տպել XOR-ի արդյունքը
-       // XOR_number(number);
+      //  XOR_number(number);
         //մուտքին տալ թիվ. Ստուգել՝ արդյոք պարզ թիվ է, եթե այո, տպել prime
-      /*  prime(number);*/
+      //  prime(number);
         //Առաջադրանք 3: մուտքին տալ թիվ, տպել թվի ֆակտորիալը
-      /*  Fact(number);*/
+     //  Fact(number);
        // Տրված է ոչ բացասական int num, շարունակաբար գումարեք թվանշանները մինչև ստանաք 1 նիշ ունեցող թիվ։
-      /*  Number(number);*/
+     //  Number(number);
         //Տրված է int n, որոշել n-ը 2-ի աստիճան է թե ոչ։
-      /*  Rank_number(number);*/
-        Triangle_two(number);
-        Triangle();
+    // Rank_number(number);
+    //   Triangle_two(number);
+        // Triangle();
     }
-    /* static void XOR_number(Scanner number) {
+   /* static void XOR_number(Scanner number) {
 
          System.out.print("Թիվ 1 = ");
          int number1 = number.nextInt();
@@ -42,7 +42,7 @@ public class Main {
          System.out.println(number1+" XOR "+number2+" = "+t);
 
      }*/
-   /*  static  void prime(Scanner number){
+  /* static  void prime(Scanner number){
          System.out.print("number = ");
         int numberPrime=number.nextInt();
         boolean prime=true;
@@ -52,12 +52,9 @@ public class Main {
                 break;
             }
         }
-        if (prime==true){
-            System.out.println("prime");
-        }
-
+ System.out.println(prime);
      }*/
- /*  static void Fact(Scanner number){
+  /* static void Fact(Scanner number){
        System.out.print("number = ");
         int factorial_number=number.nextInt();
         int factorial_result=1;
@@ -66,7 +63,7 @@ public class Main {
        }
         System.out.println(factorial_number+"! = "+factorial_result);
     }*/
-   /* static void Number(Scanner number) {
+  /* static void Number(Scanner number) {
         System.out.print("number = ");
         int num = number.nextInt();
         if (num < 0) {
@@ -74,7 +71,7 @@ public class Main {
             num = number.nextInt();
         }
         int sum;
-        while (num % 10 != 0 && num % 10 != num) {
+        while (num % 10 != num ) {
         sum=0;
             while (num != 0) {
                 sum += num % 10;
@@ -90,15 +87,15 @@ public class Main {
         System.out.print("number = ");
         int n=number.nextInt();
         boolean p = false ;
-        for (int i = 0;i<n/2;i++){
+        for (int i = 0;i<=n/2;i++){
             if(Math.pow(2,i)==n){
                 p=true;
                 break;
             }
         }
-        System.out.print(p);
-    } */
-  static  void Triangle_two(Scanner number){
+        System.out.println(p);
+    }*/
+  /*static  void Triangle_two(Scanner number){
       System.out.print("rang = ");
       int rang=number.nextInt();
       int k=1;
@@ -163,5 +160,5 @@ public class Main {
             }            System.out.println();
 
         }
-    }
+    }*/
 }
